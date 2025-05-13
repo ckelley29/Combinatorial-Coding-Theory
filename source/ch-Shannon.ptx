@@ -10,8 +10,7 @@
     <p> We have Claude Shannon to thank for coding theory. </p>
   </introduction>
 
-  <!-- include sections -->
-  <xi:include href="sec-Code-Examples.ptx" />
+
 
 
 </chapter>
