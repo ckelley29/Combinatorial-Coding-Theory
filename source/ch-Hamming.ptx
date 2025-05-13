@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-Hamming" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hamming's discovery</title>
+
+
+
+
+  <introduction>
+    <p> This is some new text I just wrote. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-Trial-Section.ptx" />
+
+    <!-- include sections -->
+  <xi:include href="sec-Favorite-Animals.ptx" />
+
+    <!-- include sections -->
+  <xi:include href="sec-Special-Statements.ptx" />
+
+</chapter>

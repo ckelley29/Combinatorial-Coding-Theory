@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Trial-Section" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fancy writing</title>
+
+  <p> In this exercise, I am going to <em>emphasize</em> a word, and I am going to use <q> quotes </q>. 
+  
+  Finally, we can use <m>\cos(x^2+1)</m> and <me> \log(\sqrt{x+y})</me>
+  
+  </p>
+
+  <p>
+    Now I am writing a new paragraph that is going to include a term. A <term>Fred</term> is a large happy Golden Retriever.
+  </p>
+
+
+</section>
