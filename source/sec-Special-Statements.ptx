@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="Special-Statements" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Special Statements</title>
+
+
+<definition xml:id="def-">
+    <statement>
+        <p> The <term>origin</term> in the Cartesian plane is the point <m>(0,0)</m>.
+        </p>
+    </statement>
+</definition>
+
+<p>
+   And now we can use the axiom format. 
+</p>
+
+<axiom xml:id="axiom-">
+    <statement>
+        <p> The <term>origin</term> in the Cartesian plane is the point <m>(0,0)</m>.
+        </p>
+    </statement>
+</axiom>
+
+<p>
+   And now we can write lots of lemmas.
+</p>
+
+<lemma xml:id="lem-sum-of-odd-numbers">
+    <statement>
+        <p> If <m> x</m> and <m>y</m> are odd, then <m>x+y</m> is not odd.
+        </p>
+    </statement>
+    <proof>
+        <p>
+            Write <m>x = 2k+1</m> and <m>y = 2m+1</m>. Then <me>x + y = 2k+1 + 2m + 1 = 2k+2m +2</me>. Thus, <m>x +y</m> is divisible by 2, and is even.
+        </p>
+    </proof>
+</lemma>
+
+<p>
+    And now we can experiment with referencing lemmas.
+</p>
+
+<theorem xml:id="thm-sum-of-four">
+    <statement>
+        <p> The sum of four odd numbers is even.
+            
+        </p>
+    </statement>
+    <proof>
+        <p>
+            Suppose <m>w,x,y,</m> and <m>z</m> are odd. 
+            By <xref ref="lem-sum-of-odd-numbers"/>  we know that <m>x+y</m> and <m>w+z</m> are both even.
+            But the sum of two even numbers is also even.
+        </p>
+    </proof>
+</theorem>
+
+</section>

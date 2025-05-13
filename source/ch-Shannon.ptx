@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-Shannon" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Shannon's discovery</title>
+
+
+
+
+  <introduction>
+    <p> We have Claude Shannon to thank for coding theory. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-Code-Examples.ptx" />
+
+
+</chapter>
